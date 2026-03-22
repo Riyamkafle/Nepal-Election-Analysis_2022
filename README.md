@@ -15,7 +15,35 @@ Key cleaning steps included:
 
 The final cleaned dataset is stored as:
 
----
+Objective
+
+This project analyzes Nepal Federal Election 2022 data using PostgreSQL to explore:
+
+party performance
+vote share vs seat share
+constituency-level competition
+gender representation
+regional dominance
+Dataset
+Candidate-level election results (2411 records)
+Party vote share summary
+Province-wise seat distribution
+Vote vs seat share comparison
+SQL Skills Used
+SELECT, WHERE, ORDER BY
+GROUP BY, HAVING
+Aggregate functions
+CASE WHEN
+JOINS and CTEs
+Window functions (ROW_NUMBER, DENSE_RANK)
+Percentage calculations
+Key Insights
+Identified closest and most dominant constituencies
+Compared vote share vs seat share to detect over/under-representation
+Evaluated party strike rates and regional dominance
+Files
+nepal_election_analysis.sql
+CSV datasets
 
 # Feature Engineering
 
